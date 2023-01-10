@@ -16,7 +16,7 @@ function App() {
           <Route path="/add" element={<AddStudent />} />
         </Routes>
         <Routes>
-          <Route path="/edit/:id" element={<EditStudent />} />
+          <Route path="/edit/:id" element={<EditStudent />} />    // edit path is not correct
         </Routes>
         <Routes>
           <Route path="/" element={<AllStudents />} />
